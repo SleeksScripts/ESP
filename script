@@ -176,7 +176,7 @@ end)
 if Success and not Errored then
     if _G.SendNotifications == true then
         game:GetService("StarterGui"):SetCore("SendNotification",{
-            Title = "Exunys Developer";
+            Title = "VIPER Scripts";
             Text = "ESP script has successfully loaded.";
             Duration = 5;
         })
